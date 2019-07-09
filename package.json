@@ -1,0 +1,19 @@
+{
+  "name": "exam",
+  "version": "1.0.0",
+  "description": "recipe app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miami78/Recipe-app.git"
+  },
+  "author": "Miami Larry",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/miami78/Recipe-app/issues"
+  },
+  "homepage": "https://github.com/miami78/Recipe-app#readme"
+}
