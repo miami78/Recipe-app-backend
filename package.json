@@ -1,7 +1,7 @@
 {
   "name": "exam",
   "version": "1.0.0",
-  "description": "recipe app",
+  "description": "recipe app backend",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -13,7 +13,12 @@
   "author": "Miami Larry",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/miami78/Recipe-app/issues"
+    "url": "https://github.com/miami78/Recipe-app-backend.git/issues"
   },
-  "homepage": "https://github.com/miami78/Recipe-app#readme"
+  "homepage": "https://github.com/miami78/Recipe-app-backend.git#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.6.4"
+  }
 }
