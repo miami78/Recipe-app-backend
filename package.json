@@ -4,7 +4,9 @@
   "description": "recipe app backend",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -19,6 +21,8 @@
   "dependencies": {
     "body-parser": "^1.19.0",
     "express": "^4.17.1",
-    "mongoose": "^5.6.4"
-  }
+    "mongoose": "^5.6.4",
+    "snyk": "^1.316.1"
+  },
+  "snyk": true
 }
